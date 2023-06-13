@@ -1,5 +1,5 @@
 #import libraries
-import openai
+
 import streamlit as st
 from streamlit_chat import message
 api_secret="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"
