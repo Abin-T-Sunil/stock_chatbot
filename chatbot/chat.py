@@ -2,7 +2,7 @@
 import openai
 import streamlit as st
 from streamlit_chat import message
-
+api_secret="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"
 openai.api_key = st.secrets["api_secret"]
 
 # creating a function which will generate the calls from the api
